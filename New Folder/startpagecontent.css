@@ -1,0 +1,152 @@
+.title{
+    height: 300px;
+    width: 760px;
+    margin: 45px 0 0 95px;
+    font-size: 23px;
+    padding: 30px;
+    text-align: left;
+    color: #283A5A;
+    /* border: 1px solid black; */
+    transition: all 0.3s ease;
+}
+.title p{
+    font-size: 18px;
+    color: #000;
+}
+.get-started-btn{
+    background: #F83B3B;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0px 10px 150px;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.get-started-btn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: all 0.3s ease;
+}
+.about-marshal{
+    border: 1px solid black;
+    height: 300px;
+    width: 96%;
+    margin: 10px 2% 10px 2%;
+}
+
+@media (max-width: 1230px) {
+    .title{
+        height: 280px;
+        width: 660px;
+        margin: 40px 0 0 80px;
+        font-size: 22px;
+        padding: 23px;
+        transition: all 0.3s ease;
+    }
+    .title p{
+        font-size: 15px;
+    }
+    .get-started-btn{
+        margin: 0 0 10px 130px;
+        height: 40px;
+        width: 130px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 1100px) {
+    .title{
+        height: 220px;
+        width: 620px;
+        margin: 25px 0px 0px 60px;
+        font-size: 21px;
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+    .title p{
+        font-size: 13px;
+    }
+    .get-started-btn{
+        margin: 10px 0px 10px 100px;
+        height: 35px;
+        width: 110px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 1080px) {
+    .title{
+        height: 200px;
+        width: 580px;
+        margin: 20px 0 10px 60px;
+        font-size: 20px;
+        padding-left: 25px;
+        transition: all 0.3s ease;
+    }
+    .title p{
+        font-size: 12px;
+    }
+    .get-started-btn{
+        margin: 30px 0px 10px 100px;
+        height: 34px;
+        width: 100px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 900px) {
+    .title{
+        height: 180px;
+        width: 550px;
+        margin: 20px 0 10px 42px;
+        font-size: 18px;
+        padding: 18px;
+        transition: all 0.3s ease;
+    }
+    .title p{
+        font-size: 11px;
+    }
+    .get-started-btn{
+        margin: 20px 0px 10px 72px;
+        height: 30px;
+        width: 90px;
+        font-size: 13px;
+    }
+}
+@media (max-width: 800px) {
+    .title{
+        height: 160px;
+        width: 460px;
+        margin: 18px 0 0px 30px;
+        font-size: 16px;
+        padding: 15px;
+        transition: all 0.3s ease;
+    }
+    .title p{
+        font-size: 11px;
+    }
+    .get-started-btn{
+        margin: 30px 0px 10px 57px;
+        height: 28px;
+        width: 84px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 620px) {
+    .title{
+        height: 140px;
+        width: 320px;
+        margin: 13px 0 0 20px;
+        font-size: 11px;
+        padding: 12px;
+        transition: all 0.3s ease;
+    }
+    .title p{
+        font-size: 8px;
+    }
+    .get-started-btn{
+        margin: 0px 0px 10px 42px;
+        height: 25px;
+        width: 75px;
+        font-size: 11px;
+    }
+}
